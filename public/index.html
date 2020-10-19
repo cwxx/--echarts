@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      body {
+        background: url(./img/background-show.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>
+        很抱歉，如果没有 JavaScript 支持，Saber 将不能正常工作。请启用浏览器的 JavaScript 然后继续
+      </strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- 高德地图api key -->
+    <!-- <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=ee8ae9276d0187bb3a14089a03fa071f"></script>  -->
+    <!-- 百度地图api key -->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=uaH3SG3IymzNhleTGuUfeoMprSzHebBX"></script>
+
+    <!--  flexible.js 可伸缩性布局方案-->
+    <script type="text/javascript" src="<%= BASE_URL %>cdn/flexible/flexible.js"></script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

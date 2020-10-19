@@ -1,0 +1,100 @@
+[
+    {
+      "id": 0,
+      "name": "首页",
+      "path": "dashboard",
+      "icon": "el-icon-s-home",
+      "children":[]
+    },
+    {
+      "id": 0,
+      "name": "用户管理",
+      "path": "user",
+      "icon": "el-icon-user-solid",
+      "children": [
+        {
+          "id": 2,
+          "name": "用户列表",
+          "path": "user/list",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "博文管理",
+      "path": "article",
+      "icon": null,
+      "children": [
+        {
+          "id": 2,
+          "name": "博文列表",
+          "path": "article/list",
+          "icon": null
+        },
+        {
+          "id": 2,
+           "name": "博文发表",
+           "path": "article/publish",
+           "icon": null
+         }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "评论管理",
+      "path": "comment",
+      "icon": null,
+      "children": [
+        {
+            "id": 2,
+            "name": "评论列表",
+            "path": "comment/list",
+            "icon": null
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "分类管理",
+      "path": "category",
+      "icon": null,
+      "children": [
+        {
+            "id": 2,
+            "name": "分类列表",
+            "path": "category/list",
+            "icon": null
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "标签管理",
+      "path": "tags",
+      "icon": null,
+      "children": [
+        {
+            "id": 2,
+            "name": "标签列表",
+            "path": "/tags/list",
+            "icon": null            
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "系统管理",
+      "path": "system",
+      "icon": null,
+      "children": [
+        {
+            "id": 2,
+            "name": "菜单管理",
+            "path": "/system/menu",
+            "icon": null
+        }
+      ]
+    }
+  ]
+  
