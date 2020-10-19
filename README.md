@@ -1,5 +1,6 @@
 # 项目简介
-数据可视化界面
+
+数据可视化界面，预览请见preview.png
 ## 技术
 vue + echarts + flexible.js
 ## Project setup
